@@ -1,5 +1,5 @@
 local PrescriptCode = "4FlrNeMqpEr"
-if PrescriptCode ~= loadstring(game:HttpGet("https://raw.githubusercontent.com/aethveil/the-prescript-s-will/refs/heads/main/code.lua", true))() then return false end
+if PrescriptCode ~= loadstring(game:HttpGet("https://raw.githubusercontent.com/aethveil/the-prescript-s-will/refs/heads/main/code.lua", true))() then return nil end
 return {
  "Parry every attack you see from another fixer until your hands bleed out through your gloves, then offer the bloodied palms to the nearest Backstreets gutter rat as tribute.",
  "Enter the Night in the Backstreets. Allow the first three pd gankers to strike you without parrying or blocking, then flee while screaming your own name backward repeatedly until you either die or escape. If you can't chat, spin 360 while running instead.",
