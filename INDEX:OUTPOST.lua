@@ -4,7 +4,7 @@ NewMap.Parent = workspace
 NewMap.Name = "IndexMap"
 NewMap.Doors.PrivServDoor.Prompt.HoldDuration = 5
 NewMap.Doors.PrivServDoor.Prompt.Triggered:Connect(function()
-game.Players.LocalPlayer.Character.CFrame = workspace.ControlPoints.Points.Point.CFrame
+game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = workspace.ControlPoints.Points.Point.CFrame
 game.Players.LocalPlayer.PlayerGui.OverlayGui.Blindness.Visible = true
 game:GetService("TeleportService"):Teleport(99831550635699, game.Players.LocalPlayer)
 task.wait(1)
